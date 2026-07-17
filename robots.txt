@@ -1,0 +1,12 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+
+
+Sitemap: https://vzpominky-odhaleno-339.github.io/sitemap.xml
