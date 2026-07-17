@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Crimson+Pro:wght@400;600&display=swap');
+
+:root {
+    --esnfj: hsl(287, 15%, 97%);
+    --mgydr: hsl(287, 15%, 100%);
+    --lwmdn: hsl(287, 10%, 15%);
+    --cbman: hsl(287, 10%, 45%);
+    --ddfuf: hsl(287, 59%, 38%);
+    --tqcia: hsl(167, 65%, 45%);
+    --ekmar: hsl(287, 15%, 88%);
+    --nnqjz: 32px;
+    --jxxwu: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --yyiwr: 'Playfair Display', sans-serif;
+    --kkxtk: 'Crimson Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--esnfj);
+    color: var(--lwmdn);
+    font-family: var(--kkxtk);
+    line-height: 1.7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+a {
+    color: var(--ddfuf);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--tqcia);
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: var(--mgydr);
+    border: 1px solid var(--ekmar);
+    border-radius: var(--nnqjz);
+    padding: 40px;
+    box-shadow: var(--jxxwu);
+    margin: auto;
+}
+
+h1, h2, h3 {
+    font-family: var(--yyiwr);
+    margin-bottom: 20px;
+    color: var(--lwmdn);
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 3px solid var(--ddfuf);
+    padding-bottom: 12px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 1px solid var(--ekmar);
+    border-radius: var(--nnqjz);
+    font-family: var(--kkxtk);
+    font-size: 1rem;
+    background: var(--esnfj);
+    color: var(--lwmdn);
+}
+
+button {
+    background: var(--ddfuf);
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: var(--tqcia);
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 1px solid var(--ekmar);
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: var(--cbman);
+    text-align: center;
+}
