@@ -1,0 +1,10 @@
+# Vzpominky odhaleno 339
+> Moderní kulinářský blog se sídlem v městě Brno, Jihomoravský.
+
+## Obsah webu
+- [Hlavní stránka](/index.html): Přehled publikací.
+- [O nás](/about.html): Kdo jsme a co děláme.
+- [Kontakt](/contact.html): Formulář a adresa.
+## Publikace
+- [Geotargeting Strategies for Distributed Networks](/geotargeting-strategies-for-distributed-networks.html)
+- [Improving Processes for Web Companies](/improving-processes-for-web-companies.html)
